@@ -31,7 +31,7 @@ Classical Optimization: Employs classical optimizers like L-BFGS-B to find the o
     cd your-chosen-folder-name
     python -m venv venv # Create the virtual environment named `venv`
     # Activate the environment (Linux/macOS)
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    source venv/bin/activate 
     # Activate the environment (Windows Command Prompt or PowerShell)
     source venv\Scripts\activate
     ```
