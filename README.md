@@ -41,9 +41,9 @@ source .venv/bin/activate
 # activate (Windows cmd.exe)
 .venv\Scripts\activate.bat
 ```
-**Or using conda:**
+   **Or using conda:**
 ```bash
-conda create --name project_name python=3.10
+conda create --name project_name
 conda activate project_name
 ```
 3. **Install dependencies:**
