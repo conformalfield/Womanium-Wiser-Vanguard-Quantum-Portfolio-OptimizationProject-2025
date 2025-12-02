@@ -21,11 +21,11 @@ Classical Optimization: Employs classical optimizers like L-BFGS-B to find the o
 
 
 1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/conformalfield/Womanium-Wiser-Vanguard-Quantum-Portfolio-Optimization-Project-2025.git your-local-repo-name
-    cd your-local-repo-name
-    cd your-chosen-folder-name
-    ```
+```bash
+git clone https://github.com/conformalfield/Womanium-Wiser-Vanguard-Quantum-Portfolio-Optimization-Project-2025.git your-local-repo-name
+cd your-local-repo-name
+cd your-chosen-folder-name
+```
 2. **Create a virtual environment** (recommended):
 Using venv (built-in):
 ```bash
@@ -41,23 +41,16 @@ source .venv/bin/activate
 # activate (Windows cmd.exe)
 .venv\Scripts\activate.bat
 ```
-
-Or using conda:
+**Or using conda:**
 ```bash
 conda create --name project_name python=3.10
 conda activate project_name
 ```
-
 3. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 (If using conda, you can install packages individually via conda where available, then use pip for the rest.)   
-
-
-
-
-
 
 Usage
 Set up IBM Quantum Credentials:
